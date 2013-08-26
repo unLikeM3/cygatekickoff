@@ -1,5 +1,7 @@
-#load{
+body{
 	background-color:#96CDCD;
+}
+#load{
 	font-size: 2em;
 	text-align: center;
 	padding:10px;
