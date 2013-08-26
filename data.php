@@ -22,6 +22,7 @@
 				<tr>
 					<td><?php echo $row['lag']; ?></td>
 					<td><?php echo $row['poang']; ?></td>
+				</t-responsiver>
 				</tr>
 			<?php } ?>
 		</table>

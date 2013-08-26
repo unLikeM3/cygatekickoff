@@ -5,9 +5,13 @@
 	<title>Logic</title>
 
 	<script type="text/javascript" src="jq.js"></script>
+	<link type="text/css" rel="stylesheet" href="bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="bootstrap-responsive.min.css">
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="bootstrap.min.js"></script>
 </head>
 <body>
-	<button onclick="return false" id="btn">Walla</button>
+	<button onclick="return false" id="btn" class="btn btn-primary">Walla</button>
 	<div id="load">
 		
 	</div>
@@ -15,6 +19,7 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('#btn').click(function(){
+				$('#load').html("");
 				$('#load').load('http://www.schillerskaselevkar.se/data.php');
 			});
 		});

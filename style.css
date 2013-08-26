@@ -1,0 +1,11 @@
+#load{
+	width:100%;
+	background-color:#ccc;
+	font-size: 2em;
+}
+tr{
+	border-bottom: 1px solid black;
+}
+td{
+	padding:10px;
+}
